@@ -13,7 +13,14 @@ sample. Or run your own copy:
 4. Launch a development server: `webdev serve`
 5. In a browser, open [http://localhost:8080](http://localhost:8080)
 
----
+---Create a local copy of this repo (use the "Clone or download" button above).
+Get the dependencies: pub get
+Get the webdev tool: pub global activate webdev
+Launch a development server: webdev serve
+In a browser, open http://localhost:8084
+
+webdev serve web:8084
+//自己的端口号被占用
 
 *Note:* The content of this repository is generated from the
 [Angular docs repository][docs repo] by running the
